@@ -2,16 +2,26 @@
     "extends": [
         "unobtrusive",
         "unobtrusive/import",
-        "unobtrusive/react"
+        "unobtrusive/react",
+     // "react-app"
     ],
     "env": {
         "node": true,
-        "browser": true
+        "browser": true,
+        "jquery": true,
+        "jest": true
     },
     "plugins": [
         "prettier"
     ],
     "rules": {
-        "prettier/prettier": "error"
+        "prettier/prettier": [
+            "error",
+            {
+                "trailingComma": "es5",
+                "singleQuote": true,
+                "printWidth": 100
+            }
+        ]
     }
 }
