@@ -1,0 +1,17 @@
+{
+    "extends": [
+        "unobtrusive",
+        "unobtrusive/import",
+        "unobtrusive/react"
+    ],
+    "env": {
+        "node": true,
+        "browser": true
+    },
+    "plugins": [
+        "prettier"
+    ],
+    "rules": {
+        "prettier/prettier": "error"
+    }
+}
